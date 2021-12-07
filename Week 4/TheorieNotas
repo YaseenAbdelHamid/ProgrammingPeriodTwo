@@ -1,0 +1,120 @@
+***********************************************************************************************************************
+                                                        NOTAS
+***********************************************************************************************************************
+
+******************
+    Exceptions
+******************
+========================================================================================================================
+Als er een onverwachte of foute output is kunnen we dit oppakken via een exception.
+========================================================================================================================
+Je kan info opzoeken over mogelijke exceptions via:
+[SHIFT] + [F1]
+of
+[CNTRL] + [Q]
+========================================================================================================================
+Voordelen van Exception Handling:
+* Elke exception zelf objecten kunnen nuttige info bevatten
+* Code die de foutafhandelijg behandelt is gegroepeerd en gescheiden v.d normale code
+* Exception borrelt omhoog doorheen de callstack
+* Exception zijn volgen de klassenhierachie opgebouwd
+========================================================================================================================
+Hoe can je exceptions opvangen?
+
+public class DemoException
+{
+public static void main(String[] args)
+{
+Scanner scanner = new Scanner(System.in);
+System.out.println("Tik 2 getallen: ");
+try
+{
+int g1 = scanner.nextInt();
+int g2 = scanner.nextInt();
+int division = g1 / g2;
+System.out.printf("%d / %d = %d", g1, g2, division);
+}
+catch (InputMismatchException ex)
+{
+System.out.println("Foutieve invoer!");
+}
+}
+
+Zet "try" voor de code die fout kan lopen, je test deze code uit
+
+try
+{
+int g1 = scanner.nextInt();
+int g2 = scanner.nextInt();
+int division = g1 / g2;
+System.out.printf("%d / %d = %d", g1, g2, division);
+}
+
+Daarachter zet je een "catch" met welke soort exception je wilt opvangen door het tuseen () te zetten
+Je kan achter een "catch" tussen {} zetten wat er moet uitgevoerd moet worden als er iets fout loopt
+Je kan meerdere catchblocks achter elkaar zetten.
+
+catch (InputMismatchException ex)
+{
+System.out.println("Foutieve invoer!");
+}
+========================================================================================================================
+Soorten Exceptions die je kan "catchen"
+
+catch (ExceptionType Name)
+
+Name:
+Kan alles zijn bv: 'n','ex','wafels'
+Dient gewoon om ernaar te kunnen refereren
+
+ExceptionsTypes:
+1.ArithmeticException
+    It is thrown when an exceptional condition has occurred in an arithmetic operation.
+2.ArrayIndexOutOfBoundsException
+    It is thrown to indicate that an array has been accessed with an illegal index.
+    The index is either negative or greater than or equal to the size of the array.
+3.ClassNotFoundException
+    This Exception is raised when we try to access a class whose definition is not found
+4.FileNotFoundException
+    This Exception is raised when a file is not accessible or does not open.
+5.IOException
+    It is thrown when an input-output operation failed or interrupted
+6.InterruptedException
+    It is thrown when a thread is waiting, sleeping, or doing some processing, and it is interrupted
+7.NoSuchFieldException
+    It is thrown when a class does not contain the field (or variable) specified
+8.NoSuchMethodException
+    It is thrown when accessing a method which is not found.
+9.NullPointerException
+    This exception is raised when referring to the members of a null object.
+    Null represents nothing
+10.NumberFormatException
+    This exception is raised when a method could not convert a string into a numeric format.
+11.RuntimeException
+    This represents any exception which occurs during runtime.
+12.StringIndexOutOfBoundsException
+    It is thrown by String class methods to indicate that an index is either negative or greater than the size of the string.
+========================================================================================================================
+
+
+
+========================================================================================================================
+Finally
+
+finally is een syntax die altijd wordt uitgevoerd.
+deze gebeurt als er GEEN exception zich heeft voorgedaan.
+wordt zelf uitgevoerd als er een return is.
+
+Nuttig
+Voor gebruik met connecties & databases & netwerken.
+========================================================================================================================
+
+
+
+
+
+
+
+
+
+
