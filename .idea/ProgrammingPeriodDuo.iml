@@ -22,7 +22,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Week 6/ExtraOefeningen/Source" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week 6/PeerTutoring/Source" isTestSource="false" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
