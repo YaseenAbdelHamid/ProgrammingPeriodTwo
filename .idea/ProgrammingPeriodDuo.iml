@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Week 1/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 1/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 1/PeerTutoring/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 2/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 2/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 2/PeerTutoring/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 3/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 3/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 3/PeerTutoring/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 4/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 4/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 4/PeerTutoring/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 5/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 5/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 5/PeerTutoring/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 6/BasisOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 6/ExtraOefeningen/Source" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Week 6/PeerTutoring/Source" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
